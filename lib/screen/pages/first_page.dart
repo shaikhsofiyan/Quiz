@@ -12,6 +12,7 @@ class FirstPage extends StatelessWidget {
       {'name': 'C++', 'icon': Icons.developer_mode, 'color': Colors.purple},
       {'name': 'JavaScript', 'icon': Icons.javascript, 'color': Colors.amber},
       {'name': 'Flutter', 'icon': Icons.flutter_dash, 'color': Colors.cyan},
+
     ];
 
     return Scaffold(
