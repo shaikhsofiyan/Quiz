@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'pages/first_page.dart';
 
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({super.key});
@@ -23,7 +24,12 @@ class WelcomeScreen extends StatelessWidget {
             const SizedBox(height: 20),
 
             ElevatedButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const FirstPage()),
+                );
+              },
               style: ElevatedButton.styleFrom(
                 padding:
                 const EdgeInsets.symmetric(horizontal: 40, vertical: 14),
