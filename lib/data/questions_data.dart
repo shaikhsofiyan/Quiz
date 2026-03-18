@@ -45,8 +45,6 @@ final Map<String, List<Question>> languageQuestions = {
     Question(questionText: "What is C++?", options: ["C++ is an object oriented programming language", "C++ is a procedural programming language", "C++ is a functional programming language", "None of the above"], correctAnswerIndex: 0),
     Question(questionText: "Which of the following is used for comments in C++?", options: ["/* comment */", "// comment */", "// comment", "both // comment or /* comment */"], correctAnswerIndex: 3),
     Question(questionText: "Which of the following user-defined header file extension used in c++?", options: ["hg", "cpp", "h", "hf"], correctAnswerIndex: 2),
-
-    // ✅ FIXED HERE
     Question(
         questionText: "Which of the following is a correct identifier in C++?",
         options: ["VAR_1234", "\$var_name", "7VARNAME", "7var_name"],
@@ -59,4 +57,28 @@ final Map<String, List<Question>> languageQuestions = {
     Question(questionText: "What is the size of int data type in C++?", options: ["2 bytes", "4 bytes", "8 bytes", "Depends on compiler"], correctAnswerIndex: 3),
     Question(questionText: "By default, all the files in C++ are opened in _________ mode.", options: ["Binary", "VTC", "Text", "ISCII"], correctAnswerIndex: 2),
   ],
+  'Flutter': [
+    Question(questionText: "What is Flutter?", options: ["Flutter is an open-source UI toolkit", "Flutter is an open-source backend toolkit", "Flutter is an open-source database toolkit", "None of the above"], correctAnswerIndex: 0),
+    Question(questionText: "Who developed the Flutter Framework and continues to maintain it today?", options: ["Facebook", "Microsoft", "Google", "Oracle"], correctAnswerIndex: 2),
+    Question(questionText: "Which programming language is used to build Flutter applications?", options: ["Kotlin", "Dart", "Java", "Go"], correctAnswerIndex: 1),
+    Question(questionText: "How many types of widgets are there in Flutter?", options: ["2", "4", "6", "8+"], correctAnswerIndex: 0),
+    Question(questionText: "When building for iOS, Flutter is restricted to an __ compilation strategy.", options: ["AOT (ahead-of-time)", "JIT (Just-in-time)", "Transcompilation", "Recompilation"], correctAnswerIndex: 0),
+    Question(questionText: "A sequence of asynchronous Flutter events is known as a:", options: ["Flow", "Current", "Stream", "Series"], correctAnswerIndex: 2),
+    Question(questionText: "Access to a cloud database through Flutter is available through which service?", options: ["SQLite", "Firebase Database", "NOSQL", "MYSQL"], correctAnswerIndex: 1),
+    Question(questionText: "What is the key configuration file used when building a Flutter project?", options: ["pubspec.xml", "pubspec.yaml", "config.html", "root.xml"], correctAnswerIndex: 1),
+    Question(questionText: "Which property is used to align widgets horizontally in a Row?", options: ["crossAxisAlignment", "mainAxisAlignment", "alignment", "justifyContent"], correctAnswerIndex: 1),
+    Question(questionText: "Which widget is used to create a scrollable list of items?", options: ["ListView", "Column", "Row", "ScrollItem"], correctAnswerIndex: 0),
+  ],
+  'JavaScript': [
+    Question(questionText: "Inside which HTML element do we put the JavaScript?", options: ["<js>", "<scripting>", "<script>", "<javascript>"], correctAnswerIndex: 2),
+    Question(questionText: "Where is the correct place to insert a JavaScript?", options: ["The <head> section", "The <body> section", "Both the <head> section and the <body> section are correct", "None of the above"], correctAnswerIndex: 2),
+    Question(questionText: "What is the correct syntax for referring to an external script called 'xxx.js'?", options: ["<script href=\"xxx.js\">", "<script name=\"xxx.js\">", "<script src=\"xxx.js\">", "<script file=\"xxx.js\">"], correctAnswerIndex: 2),
+    Question(questionText: "The external JavaScript file must contain the <script> tag.", options: ["True", "False"], correctAnswerIndex: 1),
+    Question(questionText: "How do you write 'Hello World' in an alert box?", options: ["msgBox(\"Hello World\");", "alertBox(\"Hello World\");", "msg(\"Hello World\");", "alert(\"Hello World\");"], correctAnswerIndex: 3),
+    Question(questionText: "How do you create a function in JavaScript?", options: ["function myFunction()", "function:myFunction()", "function = myFunction()", "create myFunction()"], correctAnswerIndex: 0),
+    Question(questionText: "How do you call a function named 'myFunction'?", options: ["call function myFunction()", "myFunction()", "call myFunction()", "execute myFunction()"], correctAnswerIndex: 1),
+    Question(questionText: "How to write an IF statement in JavaScript?", options: ["if i = 5 then", "if i == 5 then", "if (i == 5)", "if i = 5"], correctAnswerIndex: 2),
+    Question(questionText: "How to write an IF statement for executing some code if 'i' is NOT equal to 5?", options: ["if (i != 5)", "if i <> 5", "if i =! 5 then", "if (i <> 5)"], correctAnswerIndex: 0),
+    Question(questionText: "How does a WHILE loop start?", options: ["while (i <= 10)", "while (i <= 10; i++)", "while i = 1 to 10", "while"], correctAnswerIndex: 0),
+  ]
 };
