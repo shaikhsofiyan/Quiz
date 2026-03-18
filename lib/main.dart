@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:qauzi/screen/Welcome_screen.dart';
+import 'package:qauzi/screen/pages/first_page.dart';
+import 'package:qauzi/screen/pages/quiz_page.dart';
 
 void main() {
   runApp(const MyApp());

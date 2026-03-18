@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import '../../data/questions_data.dart';
+import 'quiz_page.dart';
 
 class FirstPage extends StatelessWidget {
   const FirstPage({super.key});
@@ -50,7 +52,15 @@ class FirstPage extends StatelessWidget {
                   final lang = languages[index];
                   return InkWell(
                     onTap: () {
-                      // TODO: Navigate to quiz screen
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => QuizPage(
+                            languageName: lang['name'] as String,
+                            questions: languageQuestions[lang['name'] as String] ?? [],
+                          ),
+                        ),
+                      );
                     },
                     borderRadius: BorderRadius.circular(16),
                     child: Container(
