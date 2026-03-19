@@ -55,10 +55,13 @@ class FirstPage extends StatelessWidget {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => QuizPage(
-                            languageName: lang['name'] as String,
-                            questions: languageQuestions[lang['name'] as String] ?? [],
-                          ),
+                          builder: (context) {
+                            final questions = (languageQuestions[lang['name'] as String] ?? []).toList()..shuffle();
+                            return QuizPage(
+                              languageName: lang['name'] as String,
+                              questions: questions,
+                            );
+                          },
                         ),
                       );
                     },

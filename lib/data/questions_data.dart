@@ -10,8 +10,8 @@ final Map<String, List<Question>> languageQuestions = {
     Question(questionText: "Which concept of Java is a way of converting real world objects in terms of class?", options: ["Polymorphism", "Encapsulation", "Abstraction", "Object Oriented Programming"], correctAnswerIndex: 3),
     Question(questionText: "What is not the use of 'this' keyword in Java?", options: ["Referring to the instance variable when a local variable has the same name", "Passing itself to the method of the same class", "Passing itself to another method", "Calling another constructor in constructor chaining"], correctAnswerIndex: 1),
     Question(questionText: "Which of the following is a type of polymorphism in Java?", options: ["Multiple polymorphism", "Compile time polymorphism", "Multilevel polymorphism", "Execution time polymorphism"], correctAnswerIndex: 1),
+    Question(questionText: "Which of the following is a type of polymorphism in Java?", options: ["Multiple polymorphism", "Compile time polymorphism", "Multilevel polymorphism", "Execution time polymorphism"], correctAnswerIndex: 1),
     Question(questionText: "What is the return type of the hashCode() method in the Object class?", options: ["Object", "int", "long", "void"], correctAnswerIndex: 1),
-    Question(questionText: "Which package contains the Random class?", options: ["java.util.Random", "java.lang", "java.util", "java.awt"], correctAnswerIndex: 2),
   ],
 
   'HTML': [
